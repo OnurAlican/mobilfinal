@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#349EFA"
+    android:orientation="vertical"
+    tools:context=".girisYapma">
+    <!-- A CardView that contains a TextView -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:outlineSpotShadowColor="@color/black"
+        app:cardCornerRadius="4dp"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0037FF"
+            android:orientation="vertical"
+
+            >
+
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:hint="E-Mail Adresiniz">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/email_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+
+                android:hint="Şifreniz">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/sifre_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:password="true" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:textSize="20dp"
+                android:textColor="#6D96FF"
+                android:text="Üye olmak istiyorum"
+                android:layout_gravity="center"
+                android:layout_marginLeft="63dp"
+                android:id="@+id/hesabimyok"
+                ></TextView>
+            <Button
+                android:id="@+id/buton_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:backgroundTint="#6D96FF"
+                android:text="Giriş Yap"
+                android:textColor="#0037FF"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

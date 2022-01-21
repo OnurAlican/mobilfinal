@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "926759106430",
+    "project_id": "sohbetapp-6b19b",
+    "storage_bucket": "sohbetapp-6b19b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926759106430:android:1ef691517f49bee298e52f",
+        "android_client_info": {
+          "package_name": "com.example.sohbetapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926759106430-livhh7vt194ghcuj48fvroksmhahckl5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHwNOVHi_b9a7En0lbF8d04FM5CoskVfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926759106430-livhh7vt194ghcuj48fvroksmhahckl5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
